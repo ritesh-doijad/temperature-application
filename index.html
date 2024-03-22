@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <form action="">
+                <input id="city" type="text" placeholder="Enter Your Location">
+                <button id="search-Btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+         </div>
+         
+        <div class="image_icon">
+            <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="weather-icon">
+            <h2 id="teamperature">0<sup>°C</sup></h2>
+            <p id="discription">broken clouds</p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <img src="https://icons.veryicon.com/png/Nature/Lovely%20Weather%202/Humidity.png" alt="">
+                <div class="text">
+                    <span id="humidity">0%</span>
+                    <p>Humidity</p>
+                </div>
+
+            </div>
+            <div class="wind">
+                <img src="https://th.bing.com/th/id/R.1e86927dc684f0ca398386ef5ed75f02?rik=4IvJkaBOLerK5g&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fwind-clipart-transparent%2fwind-clipart-transparent-19.png&ehk=6XLXb6WVeNsePxiqbgkpvYvGB5wfdejxaV8kxSrX%2bzs%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <div class="text">
+                    <span id="wind">0Km/h</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="city-name">
+            <h3 id="city-name"></h3>
+         </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
